@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net48;net8.0</TargetFrameworks>
     <PackageId>DesktopBridge.Helpers</PackageId>
     <Authors>Matteo Pagani</Authors>
     <Version>1.2.2</Version>
