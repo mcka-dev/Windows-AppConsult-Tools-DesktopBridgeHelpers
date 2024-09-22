@@ -4,6 +4,8 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
     <RuntimeIdentifiers>win-x86</RuntimeIdentifiers>
     <ApplicationManifest>app.manifest</ApplicationManifest>   
   </PropertyGroup>

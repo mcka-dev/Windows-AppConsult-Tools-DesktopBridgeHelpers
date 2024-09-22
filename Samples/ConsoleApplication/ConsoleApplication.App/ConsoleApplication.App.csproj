@@ -6,13 +6,4 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\DesktopBridge.Helpers\DesktopBridge.Helpers.csproj" />
   </ItemGroup>
-  <Target Name="AfterBuild">
-    <PropertyGroup>
-      <TargetUWP>..\ConsoleApplication.Package\win32\</TargetUWP>
-    </PropertyGroup>
-    <ItemGroup>
-      <Win32Binaries Include="$(TargetDir)\*" />
-    </ItemGroup>
-    <Copy SourceFiles="@(Win32Binaries)" DestinationFolder="$(TargetUWP)" />
-  </Target>
 </Project>
