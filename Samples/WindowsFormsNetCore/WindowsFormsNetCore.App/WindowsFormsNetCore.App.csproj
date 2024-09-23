@@ -7,6 +7,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <Platforms>x86;x64;arm64;AnyCPU</Platforms>
+    <RuntimeIdentifiers>win-x86;win-x64;win-arm64</RuntimeIdentifiers>
+    <PublishProfile>Properties\PublishProfiles\win-$(Platform).pubxml</PublishProfile>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\DesktopBridge.Helpers\DesktopBridge.Helpers.csproj" />
